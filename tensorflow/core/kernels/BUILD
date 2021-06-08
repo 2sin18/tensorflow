@@ -4152,6 +4152,7 @@ tf_cc_test(
     size = "small",
     srcs = ["segment_reduction_ops_test.cc"],
     deps = [
+        ":host_constant_op",
         ":ops_testutil",
         ":ops_util",
         ":segment_reduction_ops",
